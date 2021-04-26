@@ -3,15 +3,17 @@ A simple accounting tool to compute totals for tax returns.
 
 ## Command Line Commands Summary
 
-These commands are available on the command-line version of Tax Helper. They give you total control on the way totals are calculated: one can define as many transaction types as desired, and one can also define floor amounts to help filtering transactions:<br>
-- totals - get a quick summary of business income and expenses (using 3000 floor for credit memos;
-- get [type] [floor] - get a list of transactions from [type], minimum [floor];
-- total [type] [floor] - display the total amount from [type], taking transactions with [floor] as minimum;
-- disp [type] [floor] - display a list of transactions from [type], minimum [floor];
-- dispt [type] [floor] - display a list of transactions from [type], minimum [floor] and calculates the total;
-- defpl [name] [string] - define a new transaction type where [name] a unique identifier and [string] the string to filter with;
-- defpf [name] [amount] - define a new floor where [name] is a unique identifier and [amount] is the floor amount;
-- exit - quits the program;
+These commands are available on the command-line version of Tax Helper. They give you total control on the way totals are calculated: one can define as many transaction types as desired, and one can also define floor amounts to help filtering transactions:
+<pre>
+totals - get a quick summary of business income and expenses (using 3000 floor for credit memos;
+get [type] [floor] - get a list of transactions from [type], minimum [floor];
+total [type] [floor] - display the total amount from [type], taking transactions with [floor] as minimum;
+disp [type] [floor] - display a list of transactions from [type], minimum [floor];
+dispt [type] [floor] - display a list of transactions from [type], minimum [floor] and calculates the total;
+defpl [name] [string] - define a new transaction type where [name] a unique identifier and [string] the string to filter with;
+defpf [name] [amount] - define a new floor where [name] is a unique identifier and [amount] is the floor amount;
+exit - quits the program.
+</pre>
     
 ## Sample Transaction Types
 
