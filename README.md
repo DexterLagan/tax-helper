@@ -1,7 +1,7 @@
 # Tax Helper
 A simple accounting tool to compute totals for tax returns.
 
-<p align="center"><img src="Screenshots/MainWindow.PNG"></p>
+<p align="center"><img src="screenshots/mainwindow.png"></p>
 
 ## Command Line Commands Summary
 
