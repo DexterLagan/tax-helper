@@ -15,6 +15,9 @@ CLI Version:
 - support for custom transaction and filter definitions;
 - automatic total generation.
 
+## Downloads
+You can <b>download</b> the latest release for <b>Windows</b> 64 bits as a portable, standalone executable [HERE](https://github.com/DexterLagan/tax-helper/releases).
+
 ## Command Line Commands Summary
 
 These commands are available on the command-line version of Tax Helper. They give you total control on the way totals are calculated: one can define as many transaction types as desired, and one can also define floor amounts to help filtering transactions:
