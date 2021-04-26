@@ -7,6 +7,14 @@ GUI Version:
 CLI Version:
 <p align="center"><img src="screenshots/cli.png"></p>
 
+## Features
+
+- support for importing transactions from a CSV file, compatible with most online banking Web sites;
+- easy-to-use graphical user interface for quick totals and categorized transaction details;
+- powerful, extendable command-line interface with inline help;
+- support for custom transaction and filter definitions;
+- automatic total generation.
+
 ## Command Line Commands Summary
 
 These commands are available on the command-line version of Tax Helper. They give you total control on the way totals are calculated: one can define as many transaction types as desired, and one can also define floor amounts to help filtering transactions:
