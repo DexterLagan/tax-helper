@@ -13,7 +13,7 @@ CLI Version (available soon):
 - easy-to-use graphical user interface for quick totals and categorized transaction details;
 - powerful, extendable command-line interface with inline help;
 - support for custom transaction and filter definitions;
-- automatic total generation.
+- automatic total generation per transaction category.
 
 ## Downloads
 You can <b>download</b> the latest release for <b>Windows</b> 64 bits as a portable, standalone executable [HERE](https://github.com/DexterLagan/tax-helper/releases).
