@@ -183,7 +183,10 @@
 
 ; swap columns and rows for display in a list-box
 (define (swap-columns-and-rows l)
-  (apply map list l))
+  (if (and (cons? l)
+           (cons? (first l)))
+      (apply map list l)
+      #f))
 
 ; Helper function to set a list-box's column's width
 (define (set-column-width listbox column-index column-width)
@@ -197,7 +200,8 @@
       (begin (cond [(null? column-widths)   (for ([i (in-range 0 (length listbox-contents))]) ((curry set-column-width listbox i) 100))]                         ; If no column widths provided, use fixed default width
                    [(number? column-widths) (for ([i (in-range 0 (length listbox-contents))]) ((curry set-column-width listbox i) column-widths))]               ; If one width provided, use fixed specified width
                    [else                    (for ([i (in-range 0 (length column-widths))])    ((curry set-column-width listbox i) (list-ref column-widths i)))]) ; Else, set column widths using list
-             (send/apply listbox set listbox-contents))))
+             (when (cons? listbox-contents)
+               (send/apply listbox set listbox-contents)))))
 
 ; marshall data into strings in columns and rows for display in a listbox
 (define (get-data l)
@@ -205,11 +209,17 @@
 
 ; convert sub-list to string
 (define (force-string l)
-  (map (λ (l1) (map ~a l1)) l))
+  (if (and (cons? l)
+           (cons? (first l)))
+      (map (λ (l1) (map ~a l1)) l)
+      #f))
 
 ; second level remove (to remove something from a sub-list
 (define (remove2 what l)
-  (map (λ (l1) (remove what l1)) l))
+  (if (and (cons? l)
+           (cons? (first l)))
+      (map (λ (l1) (remove what l1)) l)
+      #f))
 
 ; asks user to select a file and load it
 (define (load-and-compute)
@@ -230,9 +240,9 @@
                 "Babysitting"
                 "Heat"
                 "Hydro"
-                "Insurance"
-                "Mortage Interest"
-                "Property Tax"
+                "Insurance (Home + Car)"
+                "Mortage Interest (Est.)"
+                "Property Tax (Est.)"
                 "Internet"
                 "CellPhone"
                 "Water")
