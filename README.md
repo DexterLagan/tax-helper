@@ -61,9 +61,9 @@ To add a new tab / list:
 2) copy-paste the last tab+listbox
 3) rename the new tab and listboxes appropriately
 4) save the project and export to tax-helper-ui.rkt
-5) update the load-and-compute procedure :
-  a) add a label and a total to the summary list
-  b) define a new column-data and populate it to the new list
+5) update the load-and-compute procedure:<br>
+  a) add a label and a total to the summary list<br>
+  b) define a new column-data and populate it to the new list<br>
 
 Notes:
 - Column data has to be strings only
