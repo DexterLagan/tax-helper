@@ -4,7 +4,7 @@ A simple accounting tool to compute totals for tax returns.
 GUI Version:
 <p align="center"><img src="screenshots/mainwindow.png"></p>
 
-CLI Version:
+CLI Version (available soon):
 <p align="center"><img src="screenshots/cli.png"></p>
 
 ## Features
