@@ -59,7 +59,7 @@
 ;(help)
 ;(newline)
 ;(totals)
-;(echo "Child Care Expenses (Maria Reyes - 70 Monterey Drive): ")
+;(echo "Child Care Expenses: ")
 ;(dispt cheques maria-400)
 ;(newline)
 ;(input-loop)
