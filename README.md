@@ -1,6 +1,8 @@
 # Tax Helper
 A simple accounting tool to compute totals for tax returns.
 
+<p align="center"><img src="Screenshots/MainWindow.PNG"></p>
+
 ## Command Line Commands Summary
 
 These commands are available on the command-line version of Tax Helper. They give you total control on the way totals are calculated: one can define as many transaction types as desired, and one can also define floor amounts to help filtering transactions:
