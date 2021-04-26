@@ -70,3 +70,5 @@ Notes:
 - You might need to switch rows and columns depending on the data source.
 
 ## License
+
+Tax Helper is free software; see [LICENSE](https://github.com/DexterLagan/tax-helper/blob/main/LICENSE) for more details.
