@@ -1,10 +1,10 @@
 # Tax Helper
 A simple accounting tool to compute totals for tax returns.
 
-GUI Version:
+GUI version:
 <p align="center"><img src="screenshots/mainwindow.png"></p>
 
-CLI Version (available soon):
+CLI version (available soon):
 <p align="center"><img src="screenshots/cli.png"></p>
 
 ## Features
