@@ -4,7 +4,7 @@ A simple accounting tool to compute totals for tax returns.
 GUI version:
 <p align="center"><img src="screenshots/mainwindow.png"></p>
 
-CLI version (available soon):
+CLI version:
 <p align="center"><img src="screenshots/cli.png"></p>
 
 ## Features
@@ -16,7 +16,7 @@ CLI version (available soon):
 - automatic total generation per transaction category.
 
 ## Downloads
-You can <b>download</b> the latest release for <b>Windows</b> 64 bits as a portable, standalone executable [HERE](https://github.com/DexterLagan/tax-helper/releases).
+You can <b>download</b> the latest GUI and CLI releases for <b>Windows</b> 64 bits as a portable, standalone executable [HERE](https://github.com/DexterLagan/tax-helper/releases).
 
 ## Command Line Commands Summary
 
