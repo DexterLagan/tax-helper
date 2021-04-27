@@ -1,3 +1,23 @@
+;#lang racket
+;(provide compute-and-populate       ; (compute-and-populate)
+;         display-about-dialog       ; (display-about-dialog)
+;         force-string               ; (force-string l)
+;         get-data                   ; (get-data l)
+;         get-proc-name              ; (get-proc-name proc)
+;         get-transaction-amount     ; (get-transaction-amount l)
+;         help                       ; (help)
+;         input-loop                 ; (input-loop)
+;         load-and-compute           ; (load-and-compute)
+;         load-transactions          ; (load-transactions f)
+;         populate-listbox-w-columns ; (populate-listbox-w-columns listbox listbox-contents column-widths)
+;         remove2                    ; (remove2 what l)
+;         replace2                   ; (replace2 str from1 to1 from2 to2)
+;         set-column-width           ; (set-column-width listbox column-index column-width)
+;         split-comma                ; (split-comma s)
+;         swap-columns-and-rows      ; (swap-columns-and-rows l)
+;         totals)                    ; (totals)
+
+
 ;;; defs
 
 (define sample-listbox-contents (list (list "01" "02" "03") (list "Dexter" "John" "Albert")))
@@ -107,7 +127,7 @@
   (let/ec break
     (let loop ()
       (display "> ")
-      (define command (read-line))
+      (define command (read-line (current-input-port) 'any))
       (cond [(string=? command "exit") (break)]
             [(string=? command "totals") (totals)]
             [(string=? command "help") (help)]
