@@ -18,6 +18,14 @@ CLI version:
 ## Downloads
 You can <b>download</b> the latest GUI and CLI releases for <b>Windows</b> 64 bits as a portable, standalone executable [HERE](https://github.com/DexterLagan/tax-helper/releases).
 
+## Import Format
+Here is the CSV format used by Tax Helper to import bank transactions:
+<pre>
+date, transaction name, debit amount, credit amount
+</pre>
+
+Fields do not need to be quoted, but there should be no punctuation or quotes in the transaction name.
+
 ## Command Line Commands Summary
 
 These commands are available on the command-line version of Tax Helper. They give you total control on the way totals are calculated: one can define as many transaction types as desired, and one can also define floor amounts to help filtering transactions:
