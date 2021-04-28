@@ -25,8 +25,8 @@ date, transaction name, debit amount, credit amount
 </pre>
 Sample transaction lines:
 <pre>
-13/01/2020, GAS STATION ULTRAMAR #123, 40.0,
-12/01/2020, CREDIT MEMO,, 1000.0
+2016-12-22, GAS STATION ULTRAMAR #123, 40.0,
+2016-12-21, CREDIT MEMO,, 1000.0
 </pre>
 
 Fields do not need to be quoted, but there should be no punctuation or quotes in the transaction name.
