@@ -1,5 +1,5 @@
 # Tax Helper
-A simple accounting tool to compute totals for tax returns.
+A simple accounting tool to compute business expenses for tax return purposes.
 
 GUI version:
 <p align="center"><img src="screenshots/mainwindow.png"></p>
